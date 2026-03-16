@@ -25,7 +25,7 @@ from cflib.utils import uri_helper
 from pynput import keyboard
 
 # URI to the Crazyflie to connect to
-URI = uri_helper.uri_from_env(default='radio://0/100/2M/247E000002')
+URI = uri_helper.uri_from_env(default='radio://0/100/2M/247E000003')
 
 # Only output errors from the logging framework
 logging.basicConfig(level=logging.ERROR)

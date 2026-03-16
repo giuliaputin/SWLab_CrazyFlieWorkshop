@@ -19,9 +19,9 @@ from cflib.crazyflie.swarm import Swarm
 
 # List of URIs for the swarm
 uris = [
-    'radio://0/100/2M/247E000002',  # Drone 1
-    'radio://0/100/2M/247E000003',  # Drone 2
-    'radio://0/80/2M/247E000008',  # Drone 3
+    'radio://0/100/2M/247E000003',  # Drone 1
+    'radio://0/80/2M/247E000008',  # Drone 2
+    'radio://0/80/2M/247E000007',  # Drone 3
 ]
 
 def run_sequence(scf):

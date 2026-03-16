@@ -70,7 +70,7 @@ from cflib.positioning.motion_commander import MotionCommander
 from cflib.utils import uri_helper
 
 # URI to the Crazyflie to connect to
-URI = uri_helper.uri_from_env(default='radio://0/80/2M/247E000044')
+URI = uri_helper.uri_from_env(default='radio://0/100/2M/247E000003')
 
 # Only output errors from the logging framework
 logging.basicConfig(level=logging.ERROR)

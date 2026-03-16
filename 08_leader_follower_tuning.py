@@ -27,8 +27,8 @@ from cflib.positioning.motion_commander import MotionCommander
 from pynput import keyboard
 
 # URIs
-URI_LEADER = 'radio://0/80/2M/247E000006'
-URI_FOLLOWER = 'radio://0/60/2M/247E000009'
+URI_LEADER = 'radio://0/80/2M/247E000007'
+URI_FOLLOWER = 'radio://0/100/2M/247E000003'
 uris = {URI_LEADER, URI_FOLLOWER}
 
 # Global State

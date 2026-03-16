@@ -15,7 +15,7 @@ from cflib.crazyflie import Crazyflie
 from cflib.crazyflie.syncCrazyflie import SyncCrazyflie
 from cflib.utils import uri_helper
 
-URI = uri_helper.uri_from_env(default='radio://0/100/2M/247E000002')
+URI = uri_helper.uri_from_env(default='radio://0/100/2M/247E000003')
 
 def fly_square(scf):
     cf = scf.cf
